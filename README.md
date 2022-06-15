@@ -13,17 +13,34 @@ npm install --save react-simple-button-ls
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import Reactfrom 'react';
 
-import MyComponent from 'react-simple-button-ls'
-import 'react-simple-button-ls/dist/index.css'
+import Button from 'react-simple-button-ls';
+import 'react-simple-button-ls/dist/index.css';
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button type='dashed'>Dashed Button</Button>
   }
 }
 ```
+## Button Types
+Button types are default, primary, dashed, text, link. You set type prop to change the button type.
+
+## Use Event
+To use event you can add event in Button props.
+
+```<Button type='dashed' onClick={btnClicked}>Pls Click</Button>```
+
+## Use Css Class
+To use special css class you can add style props.
+
+```<Button type='text' style={{color: red}}>Red Text Button</Button>```
+
+## Use Class Name
+To set class name you can add className prop.
+
+```<Button type='link' className='your-class-name'>Link Button with CSS Classes</Button>```
 
 ## License
 

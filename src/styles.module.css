@@ -1,9 +1,41 @@
 /* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+button {
+  display: inline-block;
+  margin-left: 3px;
 }
+
+.default {
+  background-color: lightgrey;
+}
+
+.dashed {
+  border: 1px black dashed;
+}
+
+.primary {
+  background-color: dodgerblue;
+}
+
+.primary:hover {
+  background-color: rgb(144, 188, 238);
+}
+
+.text {
+  background: none;
+  border: none;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+.link {
+  border: none;
+  background: none;
+  color: blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
